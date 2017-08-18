@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 /**
  *
- * @author Denylson Melo
+ * @author Tawan Rodrigues
  */
 class Cliente {
 
@@ -21,12 +21,10 @@ class Cliente {
     boolean spc;
     boolean serasa;
     Dividas dividas;
-
+    boolean carne;
+    
     //comportamentos
-    CompraRealizada comprar(Produto produto) {
-        produto = "algo" + produto;
-        return new CompraRealizada();
-    }
+    compraRealizada();
 
     escolherProduto();
 
@@ -41,6 +39,12 @@ class Cliente {
     fazerCartao();
 
     pedirGarantia();
+    
+    trocarProduto();
+    
+    pedirDesconto();
+    
+    cancelarCompra();
 
    
 }
