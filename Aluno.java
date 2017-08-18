@@ -2,18 +2,21 @@ package br.edu.ifpi.capar.poo.oracle.academy.exemplos;
 
 /**
  *
- * @author Denylson Melo
+ * @author Tawan Rodrigues
  */
 public class Aluno {
 
     //propriedades
-    nome;
-    matricula;
-    idade;
-    cpf;
-    rg;
-    escolaOrigem;
-    curso;
+    String nome;
+    String matricula;
+    short idade;
+    String cpf;
+    String rg;
+    String escolaOrigem;
+    String escolaAtual;
+    String curso;
+    String Serie;
+    
     
     //comportamentos
     estudar();
@@ -24,6 +27,8 @@ public class Aluno {
     chorar();
     desistir();
     persistir();
-    
+    fazerProva();
+    fazerTrabalho();
+    estudarSeminario();
     
 }

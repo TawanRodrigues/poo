@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.edu.ifpi.capar.poo.oracle.academy.exemplos;
 
 /**
  *
- * @author tawan
+ * @author Tawan
  */
 class CartaoCredito {
+    
+    //propriedades
+    String bandeira;
+    String numeroDoCartao;
+    double valorMinimo;
+    double valorMaximo;
+    boolean debito;
+    
+    
+    //comportamentos
+    valorCompra();
+    debito();
+    credito();
+    nomeLoja();
+    numeroProduto();
     
 }

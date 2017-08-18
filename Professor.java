@@ -7,25 +7,44 @@ package br.edu.ifpi.capar.poo.oracle.academy.exemplos;
 public class Professor {
 
     //propriedades
-    nome;
-    idade;
-    curso;
-    cpf;
-    rg;
-    matricula;
-    titulacao;
+    String nome;
+    short idade;
+    String curso;
+    String cpf;
+    String rg;
+    String matricula;
+    String titulacao;
+    double salario;
+    int numeroTurmas;
     
     //comportamentos
     darAula();
+    
     lerSlides();
+    
     prepararAula();
+    
     corrigirAtividades();
+    
     tirarOnda();
+    
     reprovarAluno();
+    
     aprovarAluno();
+    
     fazerProva();
+    
     corrigirProva();
+    
     fazerChamada();
+    
     retirarEsperanca();
     
+    produzirArtigo();
+    
+    participarConcelho();
+    
+    receberSalario();
+    
+    grevar();
 }

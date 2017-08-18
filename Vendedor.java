@@ -2,18 +2,19 @@ package br.edu.ifpi.capar.poo.oracle.academy.exemplos;
 
 /**
  *
- * @author Denylson Melo
+ * @author Tawan Rodrigues
  */
 public class Vendedor {
     
     //propriedades
-    nome;
-    idade;
-    cpf;
-    rg;
-    carteiraTrabalho;
-    loja;
-    salario;
+    String nome;
+    short idade;
+    String cpf;
+    String rg;
+    String carteiraTrabalho;
+    String loja;
+    double salario;
+    boolean valeTransporte;
     
     //comportamentos
     vender();
@@ -27,5 +28,8 @@ public class Vendedor {
     receberSalario();
     gastarSalario();
     trazerMercadorias();
+    pedirAumento();
+    sairMaisCedo();
+    
     
 }
